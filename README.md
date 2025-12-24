@@ -1,16 +1,59 @@
-<<<<<<< HEAD
-# React + Vite
+# 💱 Currency Converter Web App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack **Currency Converter** application that allows users to convert currencies in real time using live exchange rates.  
+The project is built with **React** on the frontend and **Node.js + Express** on the backend, consuming a public currency API.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 🔄 Convert between 150+ global currencies
+- 🌍 Live exchange rates
+- 🔁 Swap source and target currencies
+- ⚡ Fast and responsive UI
+- 🎨 Modern UI using Tailwind CSS
+- 🔗 REST API integration
+- 🧠 Clean separation of frontend & backend
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# Currency-Converter
->>>>>>> 1cc1a973291935ad06c0a6c5c4495f0fced245bd
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+- React.js
+- Axios
+- Tailwind CSS
+
+### Backend
+- Node.js
+- Express.js
+- Axios
+- CORS
+
+### API Used
+- **Fawaz Ahmed Currency API**  
+  https://github.com/fawazahmed0/currency-api
+
+---
+
+## 📂 Project Structure
+
+Currency-Converter/
+│
+├── backend/
+│ ├── index.js # Express server
+│ ├── package.json
+│ └── node_modules/
+│
+├── frontend/
+│ ├── src/
+│ │ ├── api/
+│ │ │ └── currency.js # Axios instance
+│ │ ├── components/
+│ │ │ └── Content.jsx # Main UI component
+│ │ ├── App.js
+│ │ └── index.js
+│ ├── package.json
+│ └── node_modules/
+│
+└── README.md
