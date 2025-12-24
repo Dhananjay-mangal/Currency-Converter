@@ -38,22 +38,23 @@ The project is built with **React** on the frontend and **Node.js + Express** on
 
 ## 📂 Project Structure
 
+```text
 Currency-Converter/
 │
 ├── backend/
-│ ├── index.js # Express server
-│ ├── package.json
-│ └── node_modules/
+│   ├── index.js            # Express server
+│   ├── package.json
+│   └── node_modules/
 │
 ├── frontend/
-│ ├── src/
-│ │ ├── api/
-│ │ │ └── currency.js # Axios instance
-│ │ ├── components/
-│ │ │ └── Content.jsx # Main UI component
-│ │ ├── App.js
-│ │ └── index.js
-│ ├── package.json
-│ └── node_modules/
+│   ├── src/
+│   │   ├── api/
+│   │   │   └── currency.js # Axios instance
+│   │   ├── components/
+│   │   │   └── Content.jsx # Main UI component
+│   │   ├── App.js
+│   │   └── index.js
+│   ├── package.json
+│   └── node_modules/
 │
 └── README.md
